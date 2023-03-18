@@ -23,40 +23,7 @@
 
 <p id="result"></p>
 
-
 <script>
-    //переменная с математическим действием
-    var op; //та переменная которая находится в блоке с кнопками для хитрости и простоты
-
-
-    //функция расчета
-    function func(){
-        var result;
-
-        //получаем первое и второе число
-        var num1 = Number(document.getElementById('num1').value);
-        var num2 = Number(document.getElementById('num2').value);
-
-        //Смотрим, что было в переменной с действием и идем исходя от этого
-
-        switch (op){
-            case '+':
-                result = num1 + num2;
-                break;
-            case '-':
-                result = num1 - num2;
-                break;
-            case '*':
-                result =  num1 * num2;
-                break;
-            case '/':
-                result = num1 / num2;
-                break;
-
-        }
-        //отправляем результат на страницу
-        document.getElementById('result').innerHTML = result;
-    }
 
 </script>
 </body>
